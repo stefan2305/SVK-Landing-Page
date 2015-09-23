@@ -1,0 +1,133 @@
+/* Type Selectors ------------------ */
+
+body {
+    color: #878787;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    background-image: url(/assets/background-texture-light_@2X.png)
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    color: black
+}
+
+h3 {
+    font-size: 20px;
+    color: #48525c;
+}
+
+p {
+    font-size: 1em;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-image: url(/assets/background-texture-dark.png);
+    padding-top: 5%;
+    padding-bottom: 1%;
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* --------------- Navigation Menu Styling --------------------- */
+nav {
+    position: relative;
+    top: auto !important;
+    bottom: 100%;
+    float: right;
+    margin: 0;
+    overflow: hidden;
+    list-style: none;
+    padding-top: 2%;
+    padding-right: 2%;
+    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    /* This allow us to arrange list items in a row, without using float */
+    display: inline-block;
+    list-style-type: none;
+}
+ 
+/* Create a style for the first level items */
+nav > ul > li > a {
+    color: #aaa;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav > ul > li > a:hover {
+    color: white;
+}
+
+nav > ul > li > a#contact {
+ border: 2px solid white;
+}
+
+/* Class Selectors ----------------- */
+
+.main-header {
+    background-image: url(/assets/background-texture-dark.png);
+    padding-top: 10%;
+    padding-bottom: 5%;
+    margin-bottom: 4em;
+}
+
+
+.main-header ul li {
+    display: inline-block;
+    list-style-type: none;
+
+
+}
+.main-header ul > li > a {
+    color: #fff;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    border: 2px solid white;
+    
+}
+
+.title {
+    color: white;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    
+}
+
+.logo {
+    float: left;
+    
+}
