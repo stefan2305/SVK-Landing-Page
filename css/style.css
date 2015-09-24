@@ -1,17 +1,63 @@
 /* Type Selectors ------------------ */
 
+html,
 body {
     color: #878787;
     margin: 0;
     padding: 0;
+    height: 100%;
     font-size: 15px;
     font-family: sans-serif;
     text-align: center;
     background-image: url(/assets/background-texture-light_@2X.png)
 }
 
+#container {
+    min-height: 100%;
+    position: relative;
+}
+
+#body {
+    min-height: 100%;
+    padding-bottom: 4em;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4em;
+    background-image: url(/assets/background-texture-dark.png);
+    padding-top: 5%;
+    padding-bottom: 1%;
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#sublinks {
+    margin: 0;
+    padding: 0;
+}
+
+#sublinks li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+#sublinks li a {
+    color: #fff;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    border: 2px solid white;
+}
+
 h1 {
-    font-size: 60px;
+    font-size: 3em;
     color: white;
     font-family: 'Raleway', sans-serif;
 }
@@ -34,27 +80,24 @@ p {
     margin-right: 15%;
 }
 
-#footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 4em;
-    background-image: url(/assets/background-texture-dark.png);
-    padding-top: 5%;
-    padding-bottom: 1%;
-    text-align: center;
-    color: white;
-    font-family: 'PT Sans', sans-serif;
+hr {
+   display: block;
+    border: 0;
+    height: 1px;
+    width: 70%;
+    color: #c9c7c7;
+    background-color: #c9c7c7;
+    margin-top: 2em;
+    
 }
 
 
 /* --------------- Navigation Menu Styling --------------------- */
 
 nav {
-    position: relative;
-    top: auto !important;
-    bottom: 100%;
-    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
     margin: 0;
     overflow: hidden;
     list-style: none;
@@ -100,30 +143,9 @@ nav ul li a#contact {
 
 .main-header {
     background-image: url(/assets/background-texture-dark.png);
-    padding-top: 10em;
-    padding-bottom: 2em;
+    padding-top: 14em;
+    padding-bottom: 10em;
     margin-bottom: 4em;
-}
-
-.main-header ul {
-    margin: 0;
-    padding: 0;
-}
-
-.main-header ul li {
-    display: inline-block;
-    list-style-type: none;
-}
-
-.main-header ul li a {
-    color: #fff;
-    display: block;
-    line-height: 2em;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-    border: 2px solid white;
 }
 
 .title {
