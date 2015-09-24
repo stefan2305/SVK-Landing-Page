@@ -14,6 +14,7 @@ h1 {
     font-size: 60px;
     color: white;
     font-family: 'Raleway', sans-serif;
+    
 }
 
 h2 {
@@ -38,7 +39,7 @@ p {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 60px;
+    height: 4em;
     background-image: url(/assets/background-texture-dark.png);
     padding-top: 5%;
     padding-bottom: 1%;
@@ -81,6 +82,7 @@ nav > ul > li > a {
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
+    font-size: 1em;
 }
 
 nav > ul > li > a:hover {
@@ -95,19 +97,21 @@ nav > ul > li > a#contact {
 
 .main-header {
     background-image: url(/assets/background-texture-dark.png);
-    padding-top: 10%;
-    padding-bottom: 5%;
+    padding-top: 10em;
+    padding-bottom: 2em;
     margin-bottom: 4em;
 }
 
+.main-header ul {
+    margin: 0;
+    padding: 0;
+}
 
 .main-header ul li {
     display: inline-block;
     list-style-type: none;
-
-
 }
-.main-header ul > li > a {
+.main-header ul li a {
     color: #fff;
     display: block;
     line-height: 2em;
@@ -121,7 +125,7 @@ nav > ul > li > a#contact {
 
 .title {
     color: white;
-    font-size: 20px;
+    font-size: 1em;
     font-family: 'Playfair Display', serif;
     font-style: italic;
     
