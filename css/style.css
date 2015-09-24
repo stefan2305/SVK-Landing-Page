@@ -14,7 +14,6 @@ h1 {
     font-size: 60px;
     color: white;
     font-family: 'Raleway', sans-serif;
-    
 }
 
 h2 {
@@ -48,7 +47,9 @@ p {
     font-family: 'PT Sans', sans-serif;
 }
 
+
 /* --------------- Navigation Menu Styling --------------------- */
+
 nav {
     position: relative;
     top: auto !important;
@@ -59,7 +60,6 @@ nav {
     list-style: none;
     padding-top: 2%;
     padding-right: 2%;
-    
 }
 
 nav ul {
@@ -72,9 +72,11 @@ nav ul li {
     display: inline-block;
     list-style-type: none;
 }
- 
+
+
 /* Create a style for the first level items */
-nav > ul > li > a {
+
+nav ul li a {
     color: #aaa;
     display: block;
     line-height: 2em;
@@ -85,13 +87,14 @@ nav > ul > li > a {
     font-size: 1em;
 }
 
-nav > ul > li > a:hover {
+nav ul li a:hover {
     color: white;
 }
 
-nav > ul > li > a#contact {
- border: 2px solid white;
+nav ul li a#contact {
+    border: 2px solid white;
 }
+
 
 /* Class Selectors ----------------- */
 
@@ -111,6 +114,7 @@ nav > ul > li > a#contact {
     display: inline-block;
     list-style-type: none;
 }
+
 .main-header ul li a {
     color: #fff;
     display: block;
@@ -120,7 +124,6 @@ nav > ul > li > a#contact {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     border: 2px solid white;
-    
 }
 
 .title {
@@ -128,10 +131,8 @@ nav > ul > li > a#contact {
     font-size: 1em;
     font-family: 'Playfair Display', serif;
     font-style: italic;
-    
 }
 
 .logo {
     float: left;
-    
 }
