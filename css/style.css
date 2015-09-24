@@ -55,9 +55,10 @@ body {
     font-family: 'Raleway', sans-serif;
     border: 2px solid white;
 }
+
 #sublinks li a:hover {
     color: black;
-    background-color: white;   
+    background-color: white;
 }
 
 #contact:hover {
@@ -90,14 +91,13 @@ p {
 }
 
 hr {
-   display: block;
+    display: block;
     border: 0;
     height: 1px;
     width: 70%;
     color: #c9c7c7;
     background-color: #c9c7c7;
     margin-top: 2em;
-    
 }
 
 
