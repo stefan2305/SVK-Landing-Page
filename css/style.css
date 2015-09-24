@@ -55,6 +55,15 @@ body {
     font-family: 'Raleway', sans-serif;
     border: 2px solid white;
 }
+#sublinks li a:hover {
+    color: black;
+    background-color: white;   
+}
+
+#contact:hover {
+    color: black;
+    background-color: white;
+}
 
 h1 {
     font-size: 3em;
