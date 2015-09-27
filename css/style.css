@@ -29,8 +29,6 @@ body {
     text-align: center;
 }
 
-.contentbox {}
-
 #footer {
     bottom: 0;
     width: 100%;
@@ -168,7 +166,26 @@ nav ul li a#contact {
     padding-top: 14em;
     padding-bottom: 10em;
     margin-bottom: 0;
-    z-index: 1;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    
+}
+
+#arrowbox {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+#arrowbox img {
+    bottom: 0;
+    width: 30px;
+    height: auto;
+    margin: 22px auto; 
+    
+    
+    
 }
 
 /*
@@ -183,6 +200,7 @@ nav ul li a#contact {
     max-height: 550px;
 }
 */
+
 
 .title {
     color: white;
@@ -236,9 +254,15 @@ nav ul li a#contact {
 
 /*----------------------- Media Queries -----------------*/
 
-@media only screen and (min-width: 480px) {
-    .logo img {
-        display: block;
-        align-content: center;
+@media only screen and (max-width: 480px) {
+    nav {
+        text-align: center;
+    }
+    h1 {
+        font-size: 40px;   
+    }
+    .main-header {
+        padding-bottom: 50%;
+        padding-top: 70%;
     }
 }
