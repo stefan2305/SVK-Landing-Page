@@ -153,7 +153,7 @@ nav ul li {
     /* This allow us to arrange list items in a row, without using float */
     display: inline-block;
     list-style-type: none;
-    padding: 0 6px;
+    padding: 0 0px;
 }
 
 #menu-icon {
@@ -277,7 +277,7 @@ nav ul li a#contact {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     border: 2px solid black;
-    max-width: 60%;
+    max-width: 70%;
     margin: auto;
 }
 
