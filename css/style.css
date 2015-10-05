@@ -1,3 +1,11 @@
+/* Resets ------------------ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /* Type Selectors ------------------ */
 
 html,
@@ -190,7 +198,7 @@ nav ul li a#contact {
 
 #logo img {
     margin-top: -10px;
-    margin-left: 4%;
+    margin-left: 3%;
     float: left;
     max-width: 85px;
     max-height: 200px;
